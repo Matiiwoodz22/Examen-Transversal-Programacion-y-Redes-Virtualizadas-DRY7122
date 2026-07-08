@@ -6,7 +6,7 @@ conn = manager.connect(host="192.168.56.101", port=830, username="cisco", passwo
 config_hostname = """
 <config>
  <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
-  <hostname>Apellido1-Apellido2</hostname>
+  <hostname>Gallegos</hostname>
  </native>
 </config>"""
 conn.edit_config(target='running', config=config_hostname)
